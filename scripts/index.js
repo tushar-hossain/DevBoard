@@ -35,9 +35,8 @@ time.innerText = `${
 } ${date.getDate()} ${date.getFullYear()}`;
 
 // discover-btn redirect new html file
-
 document.getElementById("discover-btn").addEventListener("click", function () {
-  window.location.href = "../pages/question.html";
+  window.location.href = "question.html";
 });
 
 // complete-button click event
